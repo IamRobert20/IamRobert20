@@ -1,0 +1,387 @@
+--GUI By IamRobert2.0#7600
+
+--Version 1.8
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	Title = "VorteX",  	
+
+Text = "VorteX Version 2.5",
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "wait...",  	
+
+Text = "loading...",
+
+})
+
+wait()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "loaded!",  	
+
+Text = "Have fun!",
+
+Text = "https://discord.gg/GepVmsmD",
+
+})
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("VorteX 2.5", "Sentinel")
+
+local Tab = Window:NewTab("HOME")
+
+local Section = Tab:NewSection("WELCOME USER")
+
+local Section = Tab:NewSection("HAVE FUN!")
+
+local Section = Tab:NewSection("UPDATED: 24/12/2022 05:31")
+
+local Tab = Window:NewTab("MM2")
+
+local Section = Tab:NewSection("MM2")
+
+Section:NewButton("MM2 ECLIPSE", "MM2 ECLIPSE", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+
+end)
+
+Section:NewButton("MM2 ADMIN PANEL", "MM2 ADMIN PANEL", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/MM2%20Admin%20Panel'),true))()
+
+end)
+
+Section:NewButton("MM2 GUI", "MM2 GUI", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))();
+
+end)
+
+Section:NewButton("MM2 Vynixu's", "MM2 Vynixu's", function()
+
+    print("Clicked")
+
+loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+
+end)
+
+Section:NewButton("MM2 Xenny-Ware", "MM2 Xenny-Ware", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ViribusOwner/Viribus/main/Loader', true))()
+
+end)
+
+Section:NewButton("MM2 NAS", "MM2 NAS", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/scripts/main/mm2", true))()
+
+end)
+
+Section:NewButton("MM2 GUI(2)", "MM2 GUI(2)", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/scripts/main/mm2", true))()
+
+end)
+
+local Tab = Window:NewTab("UNIVERSAL")
+
+local Section = Tab:NewSection("UNIVERSAL")
+
+Section:NewButton("FE YEET GUI", "FE YEET GUI", function()
+    print("Clicked")
+
+loadstring(game:HttpGet("https://pastebin.com/raw/saMtiek2",true))()
+
+end)
+
+Section:NewButton("FE INVISIBLE", "FE INVISIBLE", function()
+    print("Clicked")
+
+loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+
+end)
+
+Section:NewButton("FE INVISIBLE (FLING KNIFE)", "FE INVISIBLE (FLING KNIFE)", function()
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://pastefy.ga/d7sogwNS/raw'),true))()
+
+end)
+
+Section:NewButton("FE LASER ARMS", "FE LASER ARMS", function()
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://pastefy.ga/Gjlleuea/raw'),true))()
+
+end)
+
+Section:NewButton("FE FAKE GORILLA", "FE FAKE GORILLA", function()
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://pastefy.ga/osEThPw1/raw'),true))()
+
+end)
+
+Section:NewButton("FE IMPOSTOR V2", "FE IMPOSTOR V2", function()
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://pastefy.ga/7xEZRqfH/raw'),true))()
+
+end)
+
+Section:NewButton("FE CLICK (FLING TOOL)", "FE CLICK FLING TOOL)", function()
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://pastefy.ga/xBdd9GId/raw'),true))()
+
+end)
+
+Section:NewButton("FE INK MONSTER V2 (FLING)", "FE INK MONSTER V2 (FLING", function()
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://pastefy.ga/mv6EOsOX/raw'),true))()
+
+end)
+
+Section:NewButton("FE (FLING CUBE)", "FE (FLING CUBE)", function()
+    print("Clicked")
+
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\102\121\46\103\97\47\50\66\120\90\69\83\109\106\47\114\97\119\39\41\44\116\114\117\101\41\41\40\41\10")()
+
+end)
+
+Section:NewButton("FE CREEPER R6 R15", "FE CREEPER R6 R15", function()
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://pastefy.ga/Kqi7ZcbX/raw'),true))()
+
+end)
+
+Section:NewButton("FE SNAKE", "FE SNAKE", function()
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
+
+end)
+
+Section:NewButton("FE BALLER V2", "FE BALLER V2", function()
+    print("Clicked")
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Lowerrated/roblox-fe-baller-script/main/main"))()
+
+end)
+
+Section:NewButton("FE 500 POUND BALL (FLING)", "FE 500 POUND BALL (FLING)", function()
+    print("Clicked")
+
+ _G.specifictoolname = false _G.toolname = "BoomBox" loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/500%20Pounds%20Converted%20%5B1%20Tool%5D.lua'))()
+
+end)
+
+Section:NewButton("FE THE GLITCH (FLING)", "FE THE GLITCH (FLING)", function()
+    print("Clicked")
+
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\102\121\46\103\97\47\84\82\52\89\105\48\88\109\47\114\97\119\39\41\44\116\114\117\101\41\41\40\41\10")()
+
+end)
+
+Section:NewButton("FE TROLL RUNNER", "FE TROLL RUNNER", function()
+    print("Clicked")
+
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\102\121\46\103\97\47\107\65\73\71\111\97\108\117\47\114\97\119\39\41\44\116\114\117\101\41\41\40\41\10")()
+
+end)
+
+Section:NewButton("FE GIANT BLOCK (FLING)", "FE GIANT BLOCK (FLING)", function()
+    print("Clicked")
+
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\102\121\46\103\97\47\50\66\120\90\69\83\109\106\47\114\97\119\39\41\44\116\114\117\101\41\41\40\41\10")()
+
+end)
+
+local Tab = Window:NewTab("SCRIPTS")
+
+local Section = Tab:NewSection("SCRIPTS")
+
+Section:NewButton("CHAT-HAX", "CHAT-HAX", function()
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+
+end)
+
+Section:NewButton("CHAT-HAX(2)", "CHAT-HAX(2)", function()
+    print("Clicked")
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/JPRKPRHARSG/man-/main/fakechater.lua")()
+
+end)
+
+Section:NewButton("SYNAPSE X", "SYNAPSE X", function()
+    print("Clicked")
+
+loadstring(game:HttpGet("https://pastebin.com/raw/tWGxhNq0"))()
+
+end)
+
+
+
+Section:NewButton("FE ADMIN COMMANDS", " ADMIN COMMANDS", function()
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+
+end)
+
+Section:NewButton("KRNL", "KRNL", function()
+    print("Clicked")
+
+_G.KEY = '0f0bXkSA84nCSV7ruSCn8iARklACB84b5B38SN7A'
+_G.IsThemed = false
+_G.MainTitle = 'KRNL'
+_G.MainTheme = ''
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ASD80D98AS8DX0A9S8MAF8SF8MA089FMFSAFA8F/SA0D8AZ0S89MDZM89AS8D9ZAS908MAFA7SFAHFASG/main/krnl.lua'))()
+task.wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Telegram";
+Text = "t.me/arceusxscripts";
+Duration = 5;
+})
+setclipboard("https://t.me/arceusxscripts")
+
+end)
+
+Section:NewButton("RTX GUI", "RTX GUI", function()
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://pastefy.ga/xXkUxA0P/raw'),true))()
+
+end)
+
+Section:NewButton("RTX GUI(2)", "RTX GUI(2)", function()
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Freeze-Tool-Test.md/main/RTX%20Gui%20Hub.md'))()
+
+end)
+
+local Tab = Window:NewTab("PREMIUM")
+
+local Section = Tab:NewSection("PREMIUM")
+
+Section:NewButton("FE PERMANENT ANIMATION", "FE PERMANENT ANIMATION", function()
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+
+end)
+
+Section:NewButton("FE GRAVITY GUN", "FE GRAVITY GUN", function()
+    print("Clicked")
+
+loadstring(game:HttpGet("https://pastebin.com/raw/Z33NcECh", true))()
+
+end)
+
+Section:NewButton("DA HOOD (BAN KICK) GUI", "DA HOOD (BAN KICK) GUI", function()
+    print("Clicked")
+
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\120\103\77\78\120\107\120\120\10"))()
+
+end)
+
+Section:NewButton("ESP-All", "ESP-All", function()
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
+
+end)
+
+Section:NewButton("FE LAG GUI", "FE LAG GUI", function()
+    print("Clicked")
+
+loadstring(game:HttpGet('https://pastebin.com/raw/VM3b0Thg'))()
+
+end)
+
+Section:NewButton("KEYBOARD", "KEYBOARD", function()
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end)
+
+Section:NewButton("FE OLD MENU", "FE OLD MENU", function()
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/kosuke14/REBOYHub/main/games/2016_Roblox.lua'))()
+
+end)
+
+local Tab = Window:NewTab("SETTINGS")
+
+local Section = Tab:NewSection("SETTINGS")
+
+Section:NewSlider("WalkSpeed", "WalkSpeed", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+local Tab = Window:NewTab("(MM2 HUB)")
+
+local Section = Tab:NewSection("(MM2 HUB)")
+
+Section:NewButton("MM2 HUB(1)", "MM2 HUB(1)", function()
+    print("Clicked")
+
+loadstring(game:HttpGet("https://pastebin.com/raw/vJuxSzse"))()
+
+end)
+
+Section:NewButton("MM2 HUB(2)", "MM2 HUB(2)", function()
+    print("Clicked")
+
+--This Script Was Brought To You By 
+--________                              .___          ___ ___        ___.     
+--\______ \ _______   ____  _____     __| _/________ /   |   \  __ __\_ |__   
+-- |    |  \\_  __ \_/ __ \ \__  \   / __ | \___   //    ~    \|  |  \| __ \  
+-- |    `   \|  | \/\  ___/  / __ \_/ /_/ |  /    / \    Y    /|  |  /| \_\ \ 
+--/_______  /|__|    \___  >(____  /\____ | /_____ \ \___|_  / |____/ |___  / 
+--        \/             \/      \/      \/       \/       \/             \/  
+loadstring(game:HttpGet("https://pastebin.com/raw/ZcCv4Aa4"))()
+--Enjoy!
+
+end)
+
+local Tab = Window:NewTab("(Credits)")
+
+local Section = Tab:NewSection("(Credits)")
+
+local Section = Tab:NewSection("(Credits: IamRobert2.0#7600)")
+
+local Section = Tab:NewSection("(Discord: https://discord.gg/GepVmsmD)")
+
+local Section = Tab:NewSection("(Youtube: IamRobert2.0)")
+
+local Section = Tab:NewSection("(PROJECT VorteX Version 2.5)")
+
+local Section = Tab:NewSection("(UPDATED 24/12/2022)")
+
+local Section = Tab:NewSection("(About Me: Hello! My Name is Walker)")
